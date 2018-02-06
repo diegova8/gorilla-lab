@@ -12,8 +12,13 @@ $gutter-9: $gutter * 4.5;
 $gutter-10: $gutter * 5;
 
 // Font
-$open-sans: 'Open Sans', sans-serif;
 $helvetica-neue: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$source-sans-pro: 'Source Sans Pro', sans-serif;
-$default-font: $open-sans;
+$default-font: $helvetica-neue;
 
+// Colors
+$black-1: #000;
+$black-2: #373a3c;
+$black-3: #201d1e;
+$white: #fff;
+$blue: #0275d8;
+$grey: #f2f2f2;
