@@ -1,0 +1,49 @@
+$bp-min-xlg: 1200px;
+$bp-min-lg: $bp-min-xlg;
+$bp-max-md: 993px;
+$bp-max-sm: 769px;
+$bp-max-xs: 481px;
+$mobile-break: 819px;
+$desk-break: $mobile-break - 1px;
+
+@mixin bp-desk {
+	@media only screen and (min-width: $desk-break) {
+		@content;
+    }
+}
+
+@mixin bp-mobile {
+	@media only screen and (max-width: $mobile-break) {
+		@content;
+    }
+}
+
+@mixin bp-xlg {
+    @media only screen and (min-width: $bp-min-xlg) {
+		@content;
+    }
+}
+
+@mixin bp-lg {
+	@media only screen and (max-width: $bp-min-xlg) {
+		@content;
+	}
+}
+
+@mixin bp-md {
+	@media only screen and (max-width: $bp-min-md) {
+		@content;
+	}
+}
+
+@mixin bp-sm {
+	@media only screen and (max-width: $bp-min-sm) {
+		@content;
+	}
+}
+
+@mixin bp-xs {
+	@media only screen and (max-width: $bp-min-xs) {
+		@content;
+	}
+}

@@ -1,0 +1,17 @@
+%button-reset {
+	background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@mixin button-reset {
+    @extend %button-reset;
+    @content;
+}

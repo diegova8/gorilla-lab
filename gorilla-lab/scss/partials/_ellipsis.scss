@@ -1,0 +1,14 @@
+%ellipsis {
+    display: block;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin ellipsis($font-size, $line-height, $lines-to-show) {
+	@extend %ellipsis;
+    font-size: $font-size;
+	line-height: $line-height;
+	-webkit-line-clamp: $lines-to-show;
+}
