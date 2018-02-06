@@ -10,27 +10,3 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: $body-font-size;
 }
-
-a {
-    @include anchor-reset;
-}
-
-button {
-    @include button-reset;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.text-center {
-    text-align: center;
-}

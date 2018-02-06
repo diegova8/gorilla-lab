@@ -1469,18 +1469,6 @@ html {
   color: #fff;
   text-align: center; }
 
-button {
-  background: none;
-  border: 0;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
-  user-select: none;
-  outline: none;
-  cursor: pointer; }
-
 * {
   box-sizing: border-box; }
 
@@ -1489,18 +1477,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 15px; }
-
-a:hover, a:link, a:active, a:visited, a:focus {
-  text-decoration: none; }
-
-.bold {
-  font-weight: bold; }
-
-.underline {
-  text-decoration: underline; }
-
-.italic {
-  font-style: italic; }
-
-.text-center {
-  text-align: center; }
