@@ -16,11 +16,12 @@ const product = {
 
 const cart = {
     path: '/cart',
-    component: Cart
+    component: Cart,
+    exact: true
 };
 
 const thankYou = {
-    path: 'thank-you',
+    path: '/thank-you',
     component: ThankYou
 };
 

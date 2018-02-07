@@ -1,0 +1,19 @@
+@import 'util';
+
+.footer {
+    width: 100%;
+    height: $footer-height;
+    background-color: $black-3;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+.footer__logo {
+    margin-top: 45px;
+    height: $logo-height;
+    width: $logo-width;
+  }
+  

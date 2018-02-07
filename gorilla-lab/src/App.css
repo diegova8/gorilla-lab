@@ -1476,4 +1476,5 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 15px; }
+  font-size: 15px;
+  padding-top: 110px; }

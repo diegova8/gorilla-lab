@@ -1,5 +1,33 @@
 @import 'util';
 
 .header {
-    color: $grey-2;
+  background-color: #222;
+  color: white;
+  padding: 25px;
+  color: $grey-2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: $header-height;
+}
+
+.header--mod {
+  background-color: transparent;
+}
+.header__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  height: $logo-height;
+  width: $logo-width;
+}
+
+.header__cart {
+  float: right;
+  margin-top: 20px;
+  margin-right: 35px;
+  text-decoration: none;
+  color: white;
 }

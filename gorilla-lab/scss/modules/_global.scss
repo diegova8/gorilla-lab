@@ -1,3 +1,5 @@
+@import 'util';
+
 $body-font-size: $gutter-1;
 
 * {
@@ -9,4 +11,5 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: $body-font-size;
+    padding-top: $header-height;
 }
