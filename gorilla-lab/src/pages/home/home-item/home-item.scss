@@ -1,0 +1,28 @@
+@import 'util';
+
+.home-item {
+    display: block;
+    margin-bottom: $gutter-3;
+    padding-bottom: $gutter-1;
+
+    &__text-wrapper {
+        padding: $gutter-1 ($gutter-1 / 2);
+    }
+
+    &__picture {
+        display: block;
+        height: 300px;
+    }
+
+    &__name {
+        font-size: 20px;
+        font-weight: bold;
+        color: $black-2;
+        margin-bottom: $gutter-1;
+    }
+
+    &__price {
+        font-size: 16px;
+        color: $grey-2;
+    }
+}

@@ -5,7 +5,9 @@ $z-index-level-3: 99;
 $z-index-level-4: 999;
 $z-index-level-5: 9999;
 
-$z-index: ();
+$z-index: (
+	header: $z-index-level-1
+);
 
 @function z-index($key) {
 	@return map-get($z-index, $key);
