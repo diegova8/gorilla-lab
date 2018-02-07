@@ -8,7 +8,15 @@ export default class Footer extends React.Component {
     render() {
         return (
             <footer className="footer">
-                <Link to="/"><img src={logo} className="footer__logo" alt="img" /></Link>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="footer__container">
+                                <Link to="/"><img src={logo} className="footer__logo" alt="img" /></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </footer>
         );
     }

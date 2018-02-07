@@ -3,24 +3,24 @@ import Item from '../pages/item/Item';
 import Cart from '../pages/cart/Cart';
 import ThankYou from '../pages/thank-you/ThankYou';
 
-const home = {
+export const home = {
     path: '/',
     component: Home,
     exact: true
 };
 
-const product = {
+export const product = {
     path: '/item/:id',
     component: Item
 };
 
-const cart = {
+export const cart = {
     path: '/cart',
     component: Cart,
     exact: true
 };
 
-const thankYou = {
+export const thankYou = {
     path: '/thank-you',
     component: ThankYou
 };

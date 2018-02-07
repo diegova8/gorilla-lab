@@ -1,18 +1,21 @@
 @import 'util';
 
 .header {
-  background-color: #222;
-  color: white;
-  padding: 25px;
+  background-color: $black-1;
+  color: $white-1;
   color: $grey-2;
   position: fixed;
   top: 0;
   width: 100%;
-  height: $header-height;
+
+  &--transparent {
+    background-color: transparent;
+  }
 
   &__container {
-    width: 1200px;
-    margin: 0 auto;
+    @include flex(space-between, center);
+    width: 100%;
+    height: $header-height;
   }
   
   &--mod {
@@ -25,11 +28,6 @@
   }
 
   &__cart {
-    float: right;
-    margin-top: 20px;
-    margin-right: 35px;
-    text-decoration: none;
-    color: white;
+    color: $white-1;
   }
-
 }

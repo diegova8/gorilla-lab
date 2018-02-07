@@ -1,23 +1,22 @@
 .header {
-  background-color: #222;
-  color: white;
-  padding: 25px;
+  background-color: #000;
+  color: #fff;
   color: #999;
   position: fixed;
   top: 0;
-  width: 100%;
-  height: 110px; }
+  width: 100%; }
+  .header--transparent {
+    background-color: transparent; }
   .header__container {
-    width: 1200px;
-    margin: 0 auto; }
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 110px; }
   .header--mod {
     background-color: transparent; }
   .header__logo {
     height: 58px;
     width: 128px; }
   .header__cart {
-    float: right;
-    margin-top: 20px;
-    margin-right: 35px;
-    text-decoration: none;
-    color: white; }
+    color: #fff; }

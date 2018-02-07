@@ -1,19 +1,17 @@
 @import 'util';
 
 .footer {
-    width: 100%;
-    height: $footer-height;
-    background-color: $black-3;
-    bottom: 0;
-    position: absolute;
-    right: 0;
-    left: 0;
-    text-align: center;
-  }
+  width: 100%;
+  background-color: $black-1;
   
-.footer__logo {
-    margin-top: 45px;
+  &__container {
+    @include flex(center, center);
+    height: $footer-height;
+  }
+
+  &__logo {
     height: $logo-height;
     width: $logo-width;
   }
+}
   
